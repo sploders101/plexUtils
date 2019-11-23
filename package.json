@@ -1,0 +1,26 @@
+{
+  "name": "plexUtils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/js-levenshtein": "^1.1.0",
+    "axios": "^0.19.0",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.0.0",
+    "js-levenshtein": "^1.1.6",
+    "opensubtitles-api": "^5.0.1",
+    "subtitler": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^12.12.6",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}

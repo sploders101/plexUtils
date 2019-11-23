@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"resolveJsonModule": true,
+		"target": "esnext",
+		"strictBindCallApply": true,
+		"esModuleInterop": true,
+		"lib": [
+			"es2018",
+			"esnext.bigint"
+		]
+	}
+}
