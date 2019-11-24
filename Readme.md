@@ -1,9 +1,32 @@
 # Plex Utilities
 
-This is a repository of miscelanious utilities I have written for managing a Plex server.
+This is a repository of miscellaneous utilities I have written for managing a Plex server.
+
+## Building
+Make sure nodejs is installed, open a terminal in this directory, and run
+```bash
+yarn
+yarn global add gulp
+gulp
+```
+--or--
+```bash
+npm install
+npm install -g gulp
+gulp
+```
+The resulting scripts are saved in the plexUtils folder, and can be run with nodejs. If marked executable and linked to from your path, they can also be run on their own
 
 ## Configuration
 Obtain API keys for all services used by the scripts you will be using, and input them into `src/.env`
+
+## Shell scripts
+
+These are miscellaneous shell scripts that might be useful for media prep & organization. These usually accomplish simpler tasks, or tasks for which there are already good CLI utilities, and don't use a lot of APIs
+
+* extractSubtitles.sh
+	* Description
+		* Run this in a directory full of mkv files, and it will automatically find the first subtitle track of each file, and extract them, converting them to srt format. If the subtitles are VobSub, it will use vobsub2srt
 
 ## Auto-taggers
 
