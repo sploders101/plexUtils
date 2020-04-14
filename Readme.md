@@ -60,7 +60,6 @@ Psych
 			* Episode numbering & search
 		* http://opensubtitles.org
 			* Subtitles (obviously), using IMDB id from thetvdb as search query
-				* (They have a pretty crappy API)
 
 * autoTagger_video
 	* Description
