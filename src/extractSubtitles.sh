@@ -18,7 +18,7 @@ extractSubtitles() {
 	BASENAME="$(removeMKV "$1")";
 	TRACKNUM="$(getSubTrackNum "$TRACKINFO")";
 
-	if [ "$(getSubTrackType $TRACKINFO)" == "VobSub" ]; then
+	if [ "$(getSubTrackType "$TRACKINFO")" == "VobSub" ]; then
 		mkvextract tracks "$1" "${TRACKNUM}:${BASENAME}";
 		vobsub2srt "$BASENAME";
 		rm "$BASENAME.idx";
